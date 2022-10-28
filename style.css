@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    min-width: 80vw;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.topleft{
+    width: 50%;
+    padding: 12px;
+}
+.topright{
+    width: 50%;
+}
+.section2{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.section2 h1{
+    font-size: 2rem;
+}
+.box{
+    padding: 8px p;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid black ;
+    border-radius: 8px;
+  text-align: center;
+}
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid blueviolet;
+    padding: 15px 0;
+}
+.section3 table td{
+    border-bottom: 2px solid blueviolet;
+}
+.section3 h1{
+    font-size: 2.1rem;
+}
+.section3{
+    padding: 23px;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+.incre{
+    font-size: 33px;
+}
+style{
+    background-color: rgb(139, 43, 110);
+}
